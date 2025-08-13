@@ -1,0 +1,61 @@
+/* Basic reset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+ 
+} */
+
+header {
+  background: #333;
+  color: #fff;
+  /*  */
+}
+/* 
+.profile {
+
+}
+
+.profile img {
+
+} */
+
+.profile-info h2 {
+  margin: 0;
+}
+
+/* Add your own styles below */
+h1{
+    padding: 10px;
+}
+p{
+    font-weight:bold;
+    font: size 1.2em;
+    color: #333
+}
+
+profile-info{
+  width:200px;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+
+}
+span{
+  color:rgb(100, 98, 98)
+}
+li{
+  margin: 5px;
+}
+
+ul{
+  padding-top:20px;
+}
+
+img{
+  width:50%;
+
+}
