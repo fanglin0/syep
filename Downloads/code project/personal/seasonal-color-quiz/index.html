@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>SECOFI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+        <header><img src="secofi-logo.png" alt="SECOFI Logo">SECOFI</header>
+        <h3 >YOUR PERSONAL STYLIST</h3>
+        <div id ="nav-bar">
+            <ul>
+                <li><a href="quiz.html">Find Your Seasonal Colors</a></li>
+                <li><a href="about.html">About Seasonal Color Pallettes</a></li> 
+                <li><a href="recommendation.html">Author's Recommendations</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul> 
+        </div>
+    </div>
+    <div id = "quiz-container" class="flex-center flex-column">
+       
+        <h2>Take the Seasonal Color Quiz!</h2>
+        <p>Discover your best colors based on your natural features.</p>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <button id="close-modal">&times;</button>
+                <p>Psst! this quiz assumes you already know basics of your natural features and seasonal color palette.</p>
+                    <p>If you don't, check out the <a href="about.html">About Seasonal Color Palettes</a> section first! </p>
+                    <button id="dont-show-again">Don't Show Again</button>
+                    <button id="proceed-quiz">Got it, I'm ready!</button>
+                </p>
+            </div>
+        </div>
+        <button id="start-quiz">Start Quiz</button>
+        <div id="game" class="justify-center">
+            <h2 id="question">Question?</h2>
+            <div class="choice-container">
+                <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+            </div>
+            <button id="Submit">Submit</button>
+        </div>
+    </div>
+        
+        
+
+    <footer>
+        <p>© 2026 SECOFI. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
